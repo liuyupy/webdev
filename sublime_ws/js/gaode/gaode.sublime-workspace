@@ -1,0 +1,489 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"dis",
+				"districtList"
+			],
+			[
+				"prov",
+				"provinceItem"
+			],
+			[
+				"pr",
+				"provinceItem"
+			],
+			[
+				"sub",
+				"subDistricts"
+			],
+			[
+				"f",
+				"for\tfor (…) {…} (Improved Native For-Loop)"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "gaode.html",
+			"settings":
+			{
+				"buffer_size": 2594,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "{\"ResponseStatus\":{\"Timestamp\":\"2016-11-17 14:35:37\",\"Ack\":0,\"Errors\":[],\"Extension\":[{\"Id\":\"request_id\",\"Value\":\"4931afab-7ee2-4a88-b9a3-d1914a0c89f9\"},{\"Id\":\"CLOGGING_TRACE_ID\",\"Value\":\"4255959707756629957\"}]},\"status\":0,\"bookable\":1,\"limit\":0,\"pay\":1,\"spay\":1,\"payment\":7,\"subpayment\":0,\"paymentSet\":3,\"whites\":[],\"blacks\":[],\"maxPers\":2,\"minq\":1,\"maxq\":5,\"hold\":0,\"prices\":[{\"type\":1,\"cur\":\"RMB\",\"price\":417,\"exg\":0,\"addinfo\":[]},{\"type\":2,\"cur\":\"RMB\",\"price\":417,\"exg\":0,\"addinfo\":[]}],\"rmdlyprices\":[{\"type\":1,\"cur\":\"RMB\",\"price\":139,\"exg\":1,\"inday\":\"2016-11-19 00:00:00\"},{\"type\":2,\"cur\":\"RMB\",\"price\":139,\"exg\":1,\"inday\":\"2016-11-19 00:00:00\",\"brekfast\":\"无早\"},{\"type\":1,\"cur\":\"RMB\",\"price\":139,\"exg\":1,\"inday\":\"2016-11-20 00:00:00\"},{\"type\":2,\"cur\":\"RMB\",\"price\":139,\"exg\":1,\"inday\":\"2016-11-20 00:00:00\",\"brekfast\":\"无早\"},{\"type\":1,\"cur\":\"RMB\",\"price\":139,\"exg\":1,\"inday\":\"2016-11-21 00:00:00\"},{\"type\":2,\"cur\":\"RMB\",\"price\":139,\"exg\":1,\"inday\":\"2016-11-21 00:00:00\",\"brekfast\":\"无早\"}],\"totlfeelst\":[],\"lastarr\":\"0001-01-01 00:00:00\",\"hour\":0,\"guarantees\":[{\"type\":0,\"optText\":\"18:00之前\",\"optSText\":\"18:00之前\",\"earlyarr\":\"2016-11-19 14:00:00\",\"lastarr\":\"2016-11-19 18:00:00\",\"gurPrices\":[],\"way\":0},{\"type\":1,\"optText\":\"23:59之前(担保￥139)\",\"optSText\":\"23:59之前\",\"earlyarr\":\"2016-11-19 14:00:00\",\"lastarr\":\"2016-11-19 23:59:00\",\"gurPrices\":[{\"type\":1,\"cur\":\"RMB\",\"price\":139,\"exg\":0,\"addinfo\":[]},{\"type\":2,\"cur\":\"RMB\",\"price\":139,\"exg\":0,\"addinfo\":[]}],\"way\":2,\"rmk\":\"携程会根据您的担保方式，预授权或暂扣RMB 139用于担保，【2016-11-18 12:00】前可免费取消修改，若未入住或过时取消修改担保费用将不予退还。\"},{\"type\":1,\"optText\":\"凌晨06:00之前(担保￥139)\",\"optSText\":\"凌晨06:00之前\",\"earlyarr\":\"2016-11-19 14:00:00\",\"lastarr\":\"2016-11-20 06:00:00\",\"gurPrices\":[{\"type\":1,\"cur\":\"RMB\",\"price\":139,\"exg\":0,\"addinfo\":[]},{\"type\":2,\"cur\":\"RMB\",\"price\":139,\"exg\":0,\"addinfo\":[]}],\"way\":2,\"rmk\":\"携程会根据您的担保方式，预授权或暂扣RMB 139用于担保，【2016-11-18 12:00】前可免费取消修改，若未入住或过时取消修改担保费用将不予退还。\"}],\"lastday\":\"2016-12-02 00:00:00\",\"gurtoppdes\":\"您还可以使用网银、礼品卡等支付方式(但不再享有返现)\",\"coupon\":1300,\"paymoney\":0,\"canremk\":false,\"promts\":[{\"type\":6,\"amt\":60,\"opt\":0},{\"type\":11,\"amt\":50,\"value\":\"50元酒店优惠券\",\"addinfo\":{\"id\":\"40294\",\"title\":\"50元酒店优惠券\",\"desc\":\"2016-10-10至2016-12-31\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":40,\"value\":\"【蜻蜓FM专享】最高后返50元\",\"addinfo\":{\"id\":\"40412\",\"title\":\"【蜻蜓FM专享】最高后返50元\",\"desc\":\"2016-10-12至2016-11-15\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":40,\"value\":\"【联通1024】最高后返50元\",\"addinfo\":{\"id\":\"40334\",\"title\":\"【联通1024】最高后返50元\",\"desc\":\"2016-10-11至2016-11-30\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":40,\"value\":\"【百度双十一专享】最高后返50元\",\"addinfo\":{\"id\":\"40786\",\"title\":\"【百度双十一专享】最高后返50元\",\"desc\":\"2016-10-20至2016-11-30\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":30,\"value\":\"汽车票专享30元酒店优惠券\",\"addinfo\":{\"id\":\"33031\",\"title\":\"汽车票专享30元酒店优惠券\",\"desc\":\"2016-04-15至2016-12-31\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":30,\"value\":\"汽车票专享国内酒店30元优惠券\",\"addinfo\":{\"id\":\"33029\",\"title\":\"汽车票专享国内酒店30元优惠券\",\"desc\":\"2016-04-15至2016-12-31\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":30,\"value\":\"30元酒店优惠券\",\"addinfo\":{\"id\":\"40295\",\"title\":\"30元酒店优惠券\",\"desc\":\"2016-10-10至2016-12-31\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":20,\"value\":\"20元酒店优惠券\",\"addinfo\":{\"id\":\"39993\",\"title\":\"20元酒店优惠券\",\"desc\":\"2016-09-26至2016-11-30\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":20,\"value\":\"20元酒店优惠券\",\"addinfo\":{\"id\":\"39992\",\"title\":\"20元酒店优惠券\",\"desc\":\"2016-09-26至2016-11-30\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":20,\"value\":\"火车票套餐后返20元酒店优惠券\",\"addinfo\":{\"id\":\"37405\",\"title\":\"火车票套餐后返20元酒店优惠券\",\"desc\":\"2016-07-21至2016-12-31\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":20,\"value\":\"20元酒店优惠券\",\"addinfo\":{\"id\":\"40296\",\"title\":\"20元酒店优惠券\",\"desc\":\"2016-10-10至2016-12-31\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":15,\"value\":\"【百度双十一专享】最高后返15元\",\"addinfo\":{\"id\":\"40785\",\"title\":\"【百度双十一专享】最高后返15元\",\"desc\":\"2016-10-20至2016-11-30\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":10,\"value\":\"【地推大红包】酒店后返10元\",\"addinfo\":{\"id\":\"36443\",\"title\":\"【地推大红包】酒店后返10元\",\"desc\":\"2016-06-29至2016-08-31\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":10,\"value\":\"【地推大红包】酒店后返10元\",\"addinfo\":{\"id\":\"36442\",\"title\":\"【地推大红包】酒店后返10元\",\"desc\":\"2016-06-29至2016-08-31\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":10,\"value\":\"积分兑换国内酒店优惠券10元\",\"addinfo\":{\"id\":\"37025\",\"title\":\"积分兑换国内酒店优惠券10元\",\"desc\":\"2016-07-11至2016-12-31\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":10,\"value\":\"【新客大礼包】10元后返优惠券\",\"addinfo\":{\"id\":\"40012\",\"title\":\"【新客大礼包】10元后返优惠券\",\"desc\":\"2016-09-26至2016-12-31\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":10,\"value\":\"10元酒店优惠券\",\"addinfo\":{\"id\":\"41607\",\"title\":\"10元酒店优惠券\",\"desc\":\"2016-11-03至2017-06-30\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":5,\"value\":\"【签到大转盘】酒店后返5元\",\"addinfo\":{\"id\":\"29096\",\"title\":\"【签到大转盘】酒店后返5元\",\"desc\":\"2016-01-02至2016-12-31\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":5,\"value\":\"【新客大礼包】酒店后返5元\",\"addinfo\":{\"id\":\"31292\",\"title\":\"【新客大礼包】酒店后返5元\",\"desc\":\"2016-03-02至2016-12-31\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":5,\"value\":\"赠送公券\",\"addinfo\":{\"id\":\"31768\",\"title\":\"赠送公券\",\"desc\":\"2016-03-15至2016-12-31\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":5,\"value\":\"测试后返公券\",\"addinfo\":{\"id\":\"31761\",\"title\":\"测试后返公券\",\"desc\":\"2016-03-15至2016-12-31\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":5,\"value\":\"点评分享5元后返国内酒店\",\"addinfo\":{\"id\":\"33700\",\"title\":\"点评分享5元后返国内酒店\",\"desc\":\"2016-05-03至2016-12-31\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":5,\"value\":\"【点评转盘】酒店后返5元\",\"addinfo\":{\"id\":\"37673\",\"title\":\"【点评转盘】酒店后返5元\",\"desc\":\"2016-07-28至2016-12-31\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":5,\"value\":\"攻略专享酒店后返5元优惠券\",\"addinfo\":{\"id\":\"40298\",\"title\":\"攻略专享酒店后返5元优惠券\",\"desc\":\"2016-10-10至2017-10-09\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":2,\"value\":\"【点评转盘】酒店后返2元\",\"addinfo\":{\"id\":\"37660\",\"title\":\"【点评转盘】酒店后返2元\",\"desc\":\"2016-07-28至2016-12-31\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":1,\"value\":\"【签到大转盘】酒店后返1元\",\"addinfo\":{\"id\":\"29095\",\"title\":\"【签到大转盘】酒店后返1元\",\"desc\":\"2016-01-02至2016-12-31\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":1,\"value\":\"赠送私券\",\"addinfo\":{\"id\":\"31769\",\"title\":\"赠送私券\",\"desc\":\"2016-03-15至2016-12-31\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":1,\"value\":\"限卡测试私券后返\",\"addinfo\":{\"id\":\"33686\",\"title\":\"限卡测试私券后返\",\"desc\":\"2016-05-03至2016-12-31\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":1,\"value\":\"限卡测试公券后返\",\"addinfo\":{\"id\":\"33681\",\"title\":\"限卡测试公券后返\",\"desc\":\"2016-05-03至2016-12-31\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":1,\"value\":\"酒店、景酒测试\",\"addinfo\":{\"id\":\"34622\",\"title\":\"酒店、景酒测试\",\"desc\":\"2016-05-24至2016-12-31\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":1,\"value\":\"【点评转盘】酒店后返1元\",\"addinfo\":{\"id\":\"37659\",\"title\":\"【点评转盘】酒店后返1元\",\"desc\":\"2016-07-28至2016-12-31\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":0,\"value\":\"达美航空优惠代码-订酒店返里程\",\"addinfo\":{\"id\":\"25684\",\"title\":\"达美航空优惠代码-订酒店返里程\",\"desc\":\"2015-10-19至2016-12-31\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":0,\"value\":\"亚洲航空优惠代码-订酒店返里程\",\"addinfo\":{\"id\":\"26654\",\"title\":\"亚洲航空优惠代码-订酒店返里程\",\"desc\":\"2015-11-15至2016-12-31\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":0,\"value\":\"全日空优惠代码-订酒店返里程\",\"addinfo\":{\"id\":\"28531\",\"title\":\"全日空优惠代码-订酒店返里程\",\"desc\":\"2016-01-01至2016-12-31\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":0,\"value\":\"国航优惠代码-订酒店返里程\",\"addinfo\":{\"id\":\"28701\",\"title\":\"国航优惠代码-订酒店返里程\",\"desc\":\"2016-01-01至2016-12-31\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":0,\"value\":\"川航优惠代码-常规10送4活动\",\"addinfo\":{\"id\":\"28707\",\"title\":\"川航优惠代码-常规10送4活动\",\"desc\":\"2016-01-01至2016-12-31\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":0,\"value\":\"工银携程信用卡用户专属优惠\",\"addinfo\":{\"id\":\"28715\",\"title\":\"工银携程信用卡用户专属优惠\",\"desc\":\"2016-01-01至2016-12-31\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":0,\"value\":\"中国银行旅行基金优惠代码\",\"addinfo\":{\"id\":\"28716\",\"title\":\"中国银行旅行基金优惠代码\",\"desc\":\"2016-01-01至2016-12-31\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":0,\"value\":\"亚洲万里通优惠代码\",\"addinfo\":{\"id\":\"28835\",\"title\":\"亚洲万里通优惠代码\",\"desc\":\"2016-01-01至2016-12-31\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":0,\"value\":\"日航优惠代码-订酒店返里程\",\"addinfo\":{\"id\":\"28838\",\"title\":\"日航优惠代码-订酒店返里程\",\"desc\":\"2016-01-01至2016-12-31\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":0,\"value\":\"南航优惠券码-订酒店送南航里程\",\"addinfo\":{\"id\":\"40215\",\"title\":\"南航优惠券码-订酒店送南航里程\",\"desc\":\"2016-10-01至2016-12-31\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":0,\"value\":\"中信携程联名卡旅行基金\",\"addinfo\":{\"id\":\"40214\",\"title\":\"中信携程联名卡旅行基金\",\"desc\":\"2016-10-01至2016-12-31\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0},{\"type\":11,\"amt\":0,\"value\":\"广发携程联名卡旅行基金\",\"addinfo\":{\"id\":\"40218\",\"title\":\"广发携程联名卡旅行基金\",\"desc\":\"2016-10-01至2016-12-31\\r\\n\",\"property\":2,\"type\":2,\"flag\":1},\"opt\":0}],\"remks\":[{\"key\":\"6\",\"id\":\"6\",\"title\":\"Broadnet\",\"desc\":\"尽量安排宽带 \",\"displaytitle\":\"宽带\",\"optype\":2}],\"audits\":[],\"rrefs\":[{\"modul\":1,\"key\":3,\"msg\":\" 该酒店的入住时间为14:00，退房标准结算时间为12:00。如提前入住或推迟离店，均须酌情加收一定的费用。\"},{\"modul\":1,\"key\":10,\"msg\":\"您可于2016-11-19起3个月内至订单详情页申请返现，订单成交3个工作日内可获得60元返现至返现账户。\"},{\"modul\":1,\"key\":13,\"msg\":\"未找到可用的优惠券，如果您有优惠券码，可直接输入并享受优惠。\"}],\"itype\":0,\"invdel\":[],\"optdn\":0,\"opts\":[],\"tremark\":\"\",\"Insurances\":[],\"invoices\":[],\"additionalInfo\":{\"biz\":1,\"hname\":\"汉通宾馆（上海青浦店）\",\"cityId\":\"2\",\"roomName\":\"特惠双床房(限量抢购)\"},\"rdcount\":3,\"seqid\":\"8c416620e4eee7f28fcb154ed246456b\",\"fulname\":\"特惠双床房(限量抢购)\",\"images\":[{\"surl\":\"http://images4.c-ctrip.com/target/200t060000001pp0853A8_300_225.jpg\",\"lurl\":\"http://images4.c-ctrip.com/target/200t060000001pp0853A8_550_412.jpg\",\"title\":\"特惠双床房\",\"from\":\"/200t060000001pp0853A8.jpg\"}],\"basicinfos\":[{\"type\":1,\"title\":\"\",\"value\":\"无早\"},{\"type\":2,\"title\":\"床型\",\"value\":\"双床\"},{\"type\":4,\"title\":\"面积\",\"value\":\"16\"},{\"type\":5,\"title\":\"可住\",\"value\":\"2人\"},{\"type\":6,\"title\":\"楼层\",\"value\":\"2层\"},{\"type\":7,\"title\":\"加床价\",\"value\":\"该房型不可加床\"},{\"type\":8,\"title\":\"床宽\",\"value\":\"双床1米\"},{\"type\":9,\"title\":\"宽带\",\"value\":\"全部房间Wi-Fi、有线宽带免费\"},{\"type\":17,\"title\":\"无烟\"}],\"reeratio\":0,\"ac\":0,\"roomTips\":[{\"title\":\"免费取消\",\"type\":2,\"desc\":\"可免费取消 入住前取消修改都免费\"},{\"title\":\"到店付款\",\"type\":3,\"desc\":\"先预定，到店再付款\"}],\"bill\":0,\"rtype\":0,\"crmf\":0,\"paytip\":0,\"hourtimespan\":0,\"abtr\":[{\"key\":1,\"val\":\"B\"}],\"groomtips\":[{\"title\":\"担保\",\"type\":3,\"desc\":\"信用卡仅用于担保，入住后快速解冻。\"}],\"head\":{\"errcode\":0}}",
+			"settings":
+			{
+				"buffer_size": 10616,
+				"line_ending": "Windows",
+				"name": "{\"ResponseStatus\":{\"Timestamp\":\"2016-11-17 14:35:3"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 185.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"markdown p",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: List",
+				"Package Control: List Packages"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 725.0
+	},
+	"console":
+	{
+		"height": 162.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/huazhu/AppData/Roaming/Sublime Text 3/Packages/User/OmniMarkupPreviewer.sublime-settings",
+		"/E/code/github/webdev/sublime_ws/js/gaode/gaode.js",
+		"/E/documents/cjia/svn/Arch/91 - Manage/91 - Peng.Yao/02. 设计过程/华住房源接入/华住接口/接口数据/QueryHotel.json",
+		"/E/documents/cjia/svn/Arch/91 - Manage/91 - Peng.Yao/02. 设计过程/华住房源接入/华住接口/接口数据/QueryHotelIDList.json",
+		"/C/Users/huazhu/AppData/Roaming/Sublime Text 3/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/C/Users/huazhu/AppData/Roaming/Sublime Text 3/Packages/User/MarkdownPreview.sublime-settings",
+		"/C/Users/huazhu/Desktop/a.js",
+		"/C/Users/huazhu/Desktop/Hotel参考/接口数据/QueryHotel.json",
+		"/C/Users/huazhu/AppData/Roaming/Sublime Text 3/Packages/User/SFTP.sublime-settings",
+		"/C/Users/huazhu/AppData/Roaming/Sublime Text 3/Packages/SFTP/SFTP.sublime-settings",
+		"/C/Users/huazhu/Desktop/aaa.markdown",
+		"/C/Users/huazhu/Desktop/a.mdown",
+		"/C/Users/huazhu/AppData/Roaming/Sublime Text 3/Packages/MarkdownEditing/Bold and Italic Markers.tmPreferences",
+		"/C/Users/huazhu/AppData/Roaming/Sublime Text 3/Packages/MarkdownEditing/README.md",
+		"/C/Users/huazhu/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/huazhu/Desktop/a"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			">",
+			"sqa",
+			"a"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "gaode.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2594,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1936,
+								1936
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1959,
+										1960
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1911,
+										1912
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 560.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10616,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5900,
+								5907
+							]
+						],
+						"settings":
+						{
+							"auto_name": "{\"ResponseStatus\":{\"Timestamp\":\"2016-11-17 14:35:3",
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"incomplete_sync": null,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 40.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "gaode.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\huazhu\\Desktop\\a"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

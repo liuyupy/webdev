@@ -1,0 +1,61 @@
+<script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=ed996fa52dc95928cc4446b2fb8e2776"></script>
+<script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=ed996fa52dc95928cc4446b2fb8e2776&plugin=AMap.DistrictSearch"></script>
+<style type="text/css">
+	#container {width:300px; height: 300px; } 
+</style>
+<div>查询一个国家下所有省/市/区坐标信息</div>
+<div id="container">123</div>
+<div>
+	<select id="subDistricts">
+		
+	</select>
+</div>
+<div id="province"></div>
+<hr>
+<div id="city"></div>
+<hr>
+<div id="district"></div>
+<script type="text/javascript">
+	var map = new AMap.Map('container',{
+	    zoom: 10,
+	    center: [116.39,39.9]
+	});
+	var districtSearch = new AMap.DistrictSearch({
+	    level : 'country', 
+	    subdistrict : 3   
+	});
+    districtSearch.search('中国',function(status, result){
+    	console.debug(result);
+        var provinceList = result.districtList[0].districtList;
+
+        var province = document.getElementById('province');
+        var city = document.getElementById('city');
+        var district = document.getElementById('district');
+
+        for(var i = 0;i < provinceList.length; i += 1){
+
+        		var provinceItem = provinceList[i];
+                province.innerHTML=province.innerHTML+'<br/>'+provinceItem.adcode+","+provinceItem.level+","+provinceItem.name+","+provinceItem.citycode+","+provinceItem.center.lat+","+provinceItem.center.lng+","+provinceItem.center.G+","+provinceItem.center.J;
+
+                var cityList = provinceItem.districtList;
+                for(var j=0 ; j<cityList.length;j +=1){
+                	var cityItem = cityList[j];
+                	city.innerHTML = city.innerHTML + '<br/>' +provinceItem.adcode + "," + cityItem.adcode+","+cityItem.level+","+cityItem.name+","+cityItem.citycode+","+cityItem.center.lat+","+cityItem.center.lng+","+cityItem.center.G+","+cityItem.center.J;
+
+                	var districtList = cityItem.districtList;
+                	if(districtList && districtList.length !=undefined){
+	                	for(var k=0 ; k<districtList.length; k += 1){
+		                	var districtItem = districtList[k];
+		                	district.innerHTML = district.innerHTML + '<br/>'+cityItem.adcode + "," +districtItem.adcode+","+districtItem.level+","+districtItem.name+","+districtItem.citycode+","+districtItem.center.lat+","+districtItem.center.lng+","+districtItem.center.G+","+districtItem.center.J;
+	                	
+	                	}
+                	}else{
+
+                		console.debug("error: " + cityItem.adcode + "," + districtList);
+                	}
+                }
+        }
+        
+    })
+	
+</script>

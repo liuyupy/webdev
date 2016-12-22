@@ -1,0 +1,132 @@
+﻿<span style="font-size:18px;"><!DOCTYPE HTML>  
+<html>  
+<head>  
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">  
+    <title>输入提示后查询</title>  
+    <style type="text/css">  
+        body{  
+            margin:0;  
+            height:100%;  
+            width:100%;  
+            position:absolute;  
+            font-size:12px;  
+        }  
+        #mapContainer{  
+            width: 500px;
+            height: 300px;  
+        }  
+          
+        #tip{  
+            background-color:#fff;  
+            border:1px solid #ccc;  
+            padding-left:10px;  
+            padding-right:2px;  
+            position:absolute;  
+            min-height:65px;  
+            top:10px;  
+            font-size:12px;  
+            right:10px;  
+            border-radius:3px;  
+            overflow:hidden;  
+            line-height:20px;  
+            min-width:400px;  
+        }  
+        #tip input[type="button"]{  
+            height:25px;  
+            width:50px;
+            text-align:center;  
+            line-height:25px;  
+        }  
+          
+        #tip input[type="text"]{  
+            height:25px;  
+            border:1px solid #ccc;  
+            padding-left:5px;  
+            border-radius:3px;  
+            outline:none;  
+        } 
+    </style>  
+</head>  
+<body>  
+    <div id="mapContainer" ></div>  
+    <div id="tip">  
+        <b>请输入关键字：</b>  
+        <input type="text" id="keyword" name="keyword" value="地铁"  style="width: 20%;"/>  
+        <input type="text" id="cityCode" name="cityCode" value="110000"  style="width: 20%;"/> 
+        <input type="text" id="pageIndex" name="pageIndex" value="1"  style="width: 20%;"/> 
+        <input type="button" name="query" value="查询" onclick="javascript:queryPOI()">
+    </div>  
+    <div id="result" class="width:800px;height:80px;">
+        <div>result:</div>
+    </div>
+      
+    <script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=ed996fa52dc95928cc4446b2fb8e2776"></script>  
+    <script type="text/javascript">  
+        var windowsArr = [];  
+        var marker = [];  
+
+        var resultDiv = document.getElementById("result");
+
+        var mapObj = new AMap.Map("mapContainer", {  
+            resizeEnable: true,  
+            view: new AMap.View2D({  
+                resizeEnable: true,  
+                center: [116.39,39.9],  
+                zoom:13//地图显示的缩放级别  
+            }),  
+            keyboardEnable:false  
+        });  
+              
+        //从输入提示框中选择关键字并查询  
+        function queryPOI() {  
+
+            var keyword = document.getElementById("keyword").value;
+            var cityCode = document.getElementById("cityCode").value;
+            var pageIndex = document.getElementById("pageIndex").value;
+           
+            var tmpdiv = document.createElement("div");
+            tmpdiv.innerHTML="pageIndex: "+pageIndex;
+            resultDiv.appendChild(tmpdiv);
+            
+            //根据选择的输入提示关键字查询  
+            mapObj.plugin(["AMap.PlaceSearch"], function() {         
+                var msearch = new AMap.PlaceSearch({ //构造地点查询类
+					pageSize: 25,
+					pageIndex: pageIndex,
+					types:'150600'
+				});  //构造地点查询类  
+                AMap.event.addListener(msearch, "complete", placeSearch_CallBack); //查询成功时的回调函数  
+                msearch.setCity(cityCode);  
+                msearch.search(keyword);  //关键字查询查询  
+            });  
+        }  
+           
+        //输出关键字查询结果的回调函数  
+        function placeSearch_CallBack(data) {  
+            //清空地图上的InfoWindow和Marker  
+            windowsArr = [];  
+            marker     = [];  
+            mapObj.clearMap();  
+            var resultStr1 = "";  
+            var poiArr = data.poiList.pois;  
+            var resultCount = poiArr.length;  
+  
+            for (var i = 0; i < resultCount; i++) {    
+                    var longitude = poiArr[i].location.lng;  
+                    var latitude = poiArr[i].location.lat; 
+                    addStation(poiArr[i].id,poiArr[i].name,longitude,latitude,poiArr[i].type,poiArr[i].address,poiArr[i].tel);  
+            }  
+            mapObj.setFitView();  
+        }  
+           
+ 
+        function addStation(id,name,lng,lat,type,address,tel){  
+            var tmpdiv = document.createElement("div");
+            tmpdiv.innerHTML= id+","+name+","+lng+","+lat+","+type+","+address+","+tel;
+            resultDiv.appendChild(tmpdiv)
+        }  
+
+    </script>  
+</body>  
+</html>                         
+</span>  
